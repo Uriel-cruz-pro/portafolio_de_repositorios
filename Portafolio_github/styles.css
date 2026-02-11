@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: #e5e7eb;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+    background: #1e40af;
+}
+
+section {
+    padding: 30px;
+}
+
+.repo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.repo {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.repo h3 {
+    margin-bottom: 10px;
+}
+
+.repo a {
+    color: #38bdf8;
+    text-decoration: none;
+}
+
+.recent {
+    background: #020617;
+}
+
+.commit {
+    background: #1e293b;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 0.9rem;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    opacity: 0.6;
+}
